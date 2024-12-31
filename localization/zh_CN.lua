@@ -1104,6 +1104,13 @@ return {
 					"持续 {C:attention}#2#{} 回合"
 				}
 			},
+			j_cry_carved_pumpkin = {
+				name = "被雕刻的南瓜",
+				text = {
+					"接下来{C:attention}#1#{}个 Boss 盲注",
+					"{C:attention}禁用{}他们的能力"
+				}
+			},
 			j_cry_chad = {
 				name = "硬汉",
 				text = {
@@ -1152,6 +1159,14 @@ return {
 					"如果打出的手牌包含",
 					"一个 {C:attention}#2#",
 					"{X:mult,C:white} X#1# {} 倍率"
+				}
+			},
+			j_cry_clicked_cookie = {
+				name = "点击曲奇",
+				text = {
+					"{C:chips}+#1#{} 筹码",
+					"当你 {C:attention}点击",
+					"{C:chips}-#2#{} 筹码"
 				}
 			},
 			j_cry_coin = {
@@ -1234,6 +1249,15 @@ return {
 				text = {
 					"如果出的牌中包含 {C:attention}#2#",
 					"{C:red}+#1#{} 倍率"
+				}
+			},
+			j_cry_digitalhallucinations = {
+				name = "数字幻象",
+				text = {
+					"打开 {C:attention}补充包{} 后,",
+					"根据其自身的{C:attention}类型{}",
+					"有{C:green}#1# / #2#{} 几率创建一张随机的",
+					"{C:dark_edition}负片{} 牌"
 				}
 			},
 			j_cry_discreet = {
@@ -1929,6 +1953,15 @@ return {
 					"{C:inactive}(当前 {X:dark_edition,C:white} ^#2# {C:inactive} 倍率)"
 				}
 			},
+			j_cry_pumpkin = {
+				name = "小南瓜",
+				text = {
+					"如果最终筹码至少是目标筹码的{C:attention}50%{}",
+					"可以避免死亡",
+					"{C:attention}被{} {C:red}摧毁后{}",
+					"{C:attention}变为被雕刻的南瓜",
+				}
+			},
 			j_cry_python = {
 				name = "Python",
 				text = {
@@ -2352,6 +2385,14 @@ return {
 				name = "a",
 				text = {
 					"{C:inactive,s:0.8}我讨厌这张牌- SDM_0, 2024{}"
+				}
+			},
+			cry_absolute = {
+				name = "绝对",
+				text = {
+					"不能被出售",
+					"或摧毁",
+					"{C:attention}不可移除{}"
 				}
 			},
 			cry_azure_seal = {
@@ -2791,6 +2832,15 @@ return {
 					"{C:green}#1# / #2#{} 的几率",
 					"升级所有种类",
 					"{C:legendary,E:1}扑克牌型{} {C:attention}1{} 级"
+				}
+			},
+			c_cry_sunplanet = {
+				name = "炎日",
+				text = {
+					"{S:0.8}({S:0.8,V:1}等级.#1#{S:0.8}){}升级",
+					"将飞升之手的力量",
+					"提高 {X:gold,C:white}0.05{}",
+					"{C:inactive}(当前 {X:gold,C:white}X(#2#^asc){C:inactive})"
 				}
 			},
 			c_cry_universe = {
@@ -3578,8 +3628,8 @@ return {
 				text = {
 					"{C:attention}+#1#{} 牌",
 					"选择限制",
-					"{C:inactive,s:0.7}注意：未来会有额外的{}",
-					"{C:inactive,s:0.7}功能{}"
+					"所有选择的牌都会为",
+					"飞升之手提供力量"
 				}
 			},
 			v_cry_massproduct = {
@@ -3763,6 +3813,7 @@ return {
 			b_unique_cards = "特殊牌",
 			cry_active = "Active",
 			cry_again_q = "还想试一次 ",
+			cry_asc_hands = "Asc. Hands",
 			cry_code_apply = "应用",
 			cry_code_apply_previous = "应用之前的",
 			cry_code_cancel = "取消",
@@ -3833,6 +3884,9 @@ return {
 			cry_notif_jimball_d1 = "小丑球播放的音乐 Funkytown,",
 			cry_notif_jimball_d2 = "是受到版权保护的",
 			cry_notif_jimball_d3 = "不能用于流媒体和视频。",
+			cry_p_star = "Star",
+			cry_plus_card = "+1 Card",
+			cry_plus_code = "+1 Code",
 			cry_plus_cryptid = "+1 神秘生物",
 			cry_potion1 = "-1 所有牌型等级",
 			cry_potion2 = "X1.15 盲注要求",
@@ -3861,6 +3915,7 @@ return {
 		labels = {
 			banana = "香蕉",
 			code = "代码",
+			cry_absolute = "绝对",
 			cry_astral = "星界",
 			cry_azure_seal = "蔚蓝火漆",
 			cry_blur = "模糊",
